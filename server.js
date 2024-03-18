@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const app = require("./app");
 // const DB_HOST =
-//   "mongodb+srv:Artem:5Gu6JbN56BqOvwg6@cluster0.b1qvw6h.mongodb.net/contact-book?retryWrites=true&w=majority";
+//   "mongodb+srv://Artem:5Gu6JbN56BqOvwg6@cluster0.b1qvw6h.mongodb.net/contact-book?retryWrites=true&w=majority";
 
 const { DB_HOST, PORT = 3000 } = process.env;
 
