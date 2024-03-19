@@ -3,15 +3,16 @@ const app = require("./app");
 // const DB_HOST =
 //   "mongodb+srv://Artem:5Gu6JbN56BqOvwg6@cluster0.b1qvw6h.mongodb.net/contact-book?retryWrites=true&w=majority";
 
-const { DB_HOST, PORT } = process.env;
+const { DB_HOST, PORT = 3001 } = process.env;
 
 mongoose.set("strictQuery", true);
 
 mongoose
   .connect(DB_HOST)
   .then(() => {
-    app.listen(PORT);
-    console.log(`Server running. Use our API on port: ${PORT}`);
+    app.listen(PORT, () => {
+      console.log(`Server running. Use our API on port: ${PORT}`);
+    });
   })
   .catch((error) => {
     console.log(error.message);
