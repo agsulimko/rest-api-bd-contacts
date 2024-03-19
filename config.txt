@@ -1,8 +1,9 @@
 const DB_HOST =
   "mongodb+srv://Artem:5Gu6JbN56BqOvwg6@cluster0.b1qvw6h.mongodb.net/contact-book?retryWrites=true&w=majority";
+const PORT=3001;
 
 module.exports = {
-  DB_HOST,
+  DB_HOST,PORT
 };
 
-// "mongodb+srv://Artem:5Gu6JbN56BqOvwg6@cluster0.b1qvw6h.mongodb.net/contact-book?retryWrites=true&w=majority";
+
