@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const app = require("./app");
 require("dotenv").config();
 const DB_HOST =
-  "mongodb+srv://Artem:5Gu6JbN56BqOvwg6@cluster0.b1qvw6h.mongodb.net/contact-book?retryWrites=true&w=majority";
+  "mongodb+srv://Artem:5Gu6JbN56BqOvwg6@cluster0.b1qvw6h.mongodb.net/contact-book";
 
 // const { DB_HOST, PORT = 4000 } = process.env;
 
