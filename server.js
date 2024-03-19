@@ -8,7 +8,7 @@ const DB_HOST =
   "mongodb+srv://agsulimko:qw54JJJHJG787FFgfh@clusteragsulimko1.6tm1onp.mongodb.net/rest-api-bd-contacts";
 // const { DB_HOST, PORT = 4000 } = process.env;
 
-const PORT = 4000;
+const PORT = 3001;
 mongoose.set("strictQuery", true);
 
 mongoose
